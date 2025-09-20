@@ -1,6 +1,7 @@
 # RISC-V-SoC-Tapeout-
 My submission for RISC-V-Reference SoC Tapeout Program(VSD)
-_Overview_
+
+**Overview**
 
 This repository is my Week-0 submission for the RISC-V SoC Tapout Program.
 The goal of this week is to:
