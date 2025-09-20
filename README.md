@@ -30,7 +30,7 @@ Processor: Intel/AMD (x86_64)
 
 RAM: Minimum 8 GB recommended
 
-# __Installed Tools:__
+# __Installed Tools__
 
 Git
 
