@@ -12,7 +12,7 @@ Add a README file describing the environment and tools.
 
 Confirm readiness for future weeks where RTL-to-GDSII design flow will be executed.
 
-📂 _Structure_
+📂 __Structure__
 
 README.md : Documentation of Week-0 task.
 
@@ -22,7 +22,7 @@ scripts/ : Placeholder for automation scripts.
 
 .gitignore : Ignore build artifacts.
 
-⚙️ System Configuration
+⚙️ __System Configuration__
 
 OS Used: Ubuntu 22.04 LTS (64-bit)
 
@@ -30,7 +30,7 @@ Processor: Intel/AMD (x86_64)
 
 RAM: Minimum 8 GB recommended
 
-_Installed Tools:_
+__Installed Tools:__
 
 Git
 
@@ -44,34 +44,34 @@ KLayout
 
 ngspice
 
-_🛠️ Installation Steps_
+__🛠️ Installation Steps__
 
-_1. Install Git_
+__1. Install Git__
 sudo apt update
 sudo apt install -y git
 git --version
 
-_2. Install Docker_
+__2. Install Docker__
 sudo apt install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
 
-_3. Add User to Docker Group_
+__3. Add User to Docker Group__
 sudo usermod -aG docker $USER
 
 
 (Log out and log back in for this to take effect)
 
-_4. Verify Docker Access_
+__4. Verify Docker Access__
 docker run hello-world
 
-_5. Clone OpenLANE_
+__5. Clone OpenLANE__
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 cd OpenLane
 make
 
-_6. Install Magic, KLayout, ngspice_
+__6. Install Magic, KLayout, ngspice__
 sudo apt install -y magic klayout ngspice
 
 🚀 Getting Started
@@ -92,7 +92,7 @@ magic -version
 klayout -version
 ngspice -v
 
-_🎯 Learning Outcomes (Week-0)_
+__🎯 Learning Outcomes (Week-0)__
 
 Understood the program flow for RISC-V SoC Tapout.
 
