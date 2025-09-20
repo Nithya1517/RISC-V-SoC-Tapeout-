@@ -1,7 +1,7 @@
 # RISC-V-SoC-Tapeout-
 My submission for RISC-V-Reference SoC Tapeout Program(VSD)
 
-**Overview**
+#**Overview**
 
 This repository is my Week-0 submission for the RISC-V SoC Tapout Program.
 The goal of this week is to:
@@ -12,7 +12,7 @@ Add a README file describing the environment and tools.
 
 Confirm readiness for future weeks where RTL-to-GDSII design flow will be executed.
 
-📂 __Structure__
+📂# __Structure__
 
 README.md : Documentation of Week-0 task.
 
